@@ -1,0 +1,84 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: white;
+}
+
+main {
+    color: #8904B1;
+}
+
+.firstLine {
+    position: relative;
+    left: -2.5em;
+}
+
+.fs-1 {
+    font-weight: 900;
+}
+
+.main-container {
+    margin: 5em 0;
+}
+
+.btn-outline-success {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline-success:hover {
+    border: 1px solid cyan;
+    background-color: cyan;
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #8904B1;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-upper {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.fa-brands {
+    width: 5rem;
+    height: 5rem;
+}
+
+@media screen and (max-width: 48rem) {
+    .footer-bottom {
+        text-align: center;
+        text-size-adjust: 0.8;
+    }
+
+    .footer-upper {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        text-align: center;
+    }
+
+    .headline {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        transform: scale(0.8);
+    }
+
+    img {
+        style="height: 12rem;"
+    }
+}
